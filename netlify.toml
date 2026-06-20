@@ -1,0 +1,5 @@
+# Netlify config — static site, no build step.
+# The app is a single self-contained index.html served from the repo root.
+[build]
+  publish = "."
+  command = ""
