@@ -183,7 +183,7 @@
 </div>
 
 <footer>
-  Built for Andrew · Results &amp; odds compiled from public sources, 20 June 2026 · Predictions are a model estimate, not betting advice.
+  Built for Andrew · Results &amp; odds compiled from public sources, 23 June 2026 · Predictions are a model estimate, not betting advice.
 </footer>
 
 <script>
@@ -193,17 +193,17 @@
    ============================================================ */
 /* <<<WC_DATA_START>>> */
 const DATA = {
-  asOf: "2026-06-19",
-  lastUpdated: "20 June 2026",
+  asOf: "2026-06-23",
+  lastUpdated: "23 June 2026",
   // American moneyline outright odds for display (lower = stronger favourite)
   odds: {
-    "France":"+390","Spain":"+550","England":"+600","Argentina":"+800","Portugal":"+1000",
-    "Brazil":"+1100","Germany":"+1300","Netherlands":"+1700","USA":"+3300","Morocco":"+3300",
-    "Belgium":"+4000","Colombia":"+4500","Croatia":"+6500","Uruguay":"+8000"
+    "France":"+375","England":"+550","Spain":"+550","Argentina":"+600","Portugal":"+1000",
+    "Germany":"+1000","Brazil":"+1300","Netherlands":"+1400","USA":"+3300","Morocco":"+3500",
+    "Belgium":"+4000","Colombia":"+5000","Croatia":"+6000","Uruguay":"+9000"
   },
   // Power ratings 0–100, anchored to the odds and adjusted by judgement (the "feeling").
   ratings: {
-    "France":92,"Spain":90,"England":88,"Brazil":87,"Argentina":86,"Portugal":85,"Germany":85,
+    "France":92,"Spain":90,"England":88,"Brazil":87,"Argentina":87,"Portugal":85,"Germany":85,
     "Netherlands":83,"Belgium":80,"Uruguay":79,"Morocco":79,"Croatia":78,"Colombia":78,"Senegal":77,
     "USA":76,"Switzerland":76,"Japan":75,"Norway":75,"Turkey":74,"Mexico":74,"South Korea":73,
     "Austria":73,"Sweden":73,"Canada":73,"Ecuador":73,"Czechia":72,"Egypt":72,"Ivory Coast":72,
@@ -256,57 +256,57 @@ const DATA = {
     E:{teams:["Germany","Curacao","Ivory Coast","Ecuador"],matches:[
       {d:"2026-06-14",h:"Germany",a:"Curacao",hs:7,as:1,ft:true},
       {d:"2026-06-14",h:"Ivory Coast",a:"Ecuador",hs:1,as:0,ft:true},
-      {d:"2026-06-20",h:"Germany",a:"Ivory Coast",ft:false},
-      {d:"2026-06-20",h:"Ecuador",a:"Curacao",ft:false},
+      {d:"2026-06-20",h:"Germany",a:"Ivory Coast",hs:3,as:1,ft:true},
+      {d:"2026-06-20",h:"Ecuador",a:"Curacao",hs:2,as:0,ft:true},
       {d:"2026-06-25",h:"Curacao",a:"Ivory Coast",ft:false},
       {d:"2026-06-25",h:"Ecuador",a:"Germany",ft:false}]},
     F:{teams:["Netherlands","Japan","Sweden","Tunisia"],matches:[
       {d:"2026-06-14",h:"Netherlands",a:"Japan",hs:2,as:2,ft:true},
       {d:"2026-06-14",h:"Sweden",a:"Tunisia",hs:5,as:1,ft:true},
-      {d:"2026-06-20",h:"Netherlands",a:"Sweden",ft:false},
-      {d:"2026-06-20",h:"Tunisia",a:"Japan",ft:false},
+      {d:"2026-06-20",h:"Netherlands",a:"Sweden",hs:2,as:1,ft:true},
+      {d:"2026-06-20",h:"Tunisia",a:"Japan",hs:0,as:1,ft:true},
       {d:"2026-06-25",h:"Japan",a:"Sweden",ft:false},
       {d:"2026-06-25",h:"Tunisia",a:"Netherlands",ft:false}]},
     G:{teams:["Belgium","Egypt","Iran","New Zealand"],matches:[
       {d:"2026-06-15",h:"Belgium",a:"Egypt",hs:1,as:1,ft:true},
       {d:"2026-06-15",h:"Iran",a:"New Zealand",hs:2,as:2,ft:true},
-      {d:"2026-06-21",h:"Belgium",a:"Iran",ft:false},
-      {d:"2026-06-21",h:"New Zealand",a:"Egypt",ft:false},
+      {d:"2026-06-21",h:"Belgium",a:"Iran",hs:0,as:0,ft:true},
+      {d:"2026-06-21",h:"New Zealand",a:"Egypt",hs:1,as:3,ft:true},
       {d:"2026-06-26",h:"Egypt",a:"Iran",ft:false},
       {d:"2026-06-26",h:"New Zealand",a:"Belgium",ft:false}]},
     H:{teams:["Spain","Cape Verde","Saudi Arabia","Uruguay"],matches:[
       {d:"2026-06-15",h:"Spain",a:"Cape Verde",hs:0,as:0,ft:true},
       {d:"2026-06-15",h:"Saudi Arabia",a:"Uruguay",hs:1,as:1,ft:true},
-      {d:"2026-06-21",h:"Spain",a:"Saudi Arabia",ft:false},
-      {d:"2026-06-21",h:"Uruguay",a:"Cape Verde",ft:false},
+      {d:"2026-06-21",h:"Spain",a:"Saudi Arabia",hs:4,as:0,ft:true},
+      {d:"2026-06-21",h:"Uruguay",a:"Cape Verde",hs:2,as:2,ft:true},
       {d:"2026-06-26",h:"Cape Verde",a:"Saudi Arabia",ft:false},
       {d:"2026-06-26",h:"Uruguay",a:"Spain",ft:false}]},
     I:{teams:["France","Senegal","Iraq","Norway"],matches:[
       {d:"2026-06-16",h:"France",a:"Senegal",hs:3,as:1,ft:true},
       {d:"2026-06-16",h:"Iraq",a:"Norway",hs:1,as:4,ft:true},
-      {d:"2026-06-22",h:"France",a:"Iraq",ft:false},
-      {d:"2026-06-22",h:"Norway",a:"Senegal",ft:false},
+      {d:"2026-06-22",h:"France",a:"Iraq",hs:3,as:0,ft:true},
+      {d:"2026-06-22",h:"Norway",a:"Senegal",hs:3,as:2,ft:true},
       {d:"2026-06-26",h:"Norway",a:"France",ft:false},
       {d:"2026-06-26",h:"Senegal",a:"Iraq",ft:false}]},
     J:{teams:["Argentina","Algeria","Austria","Jordan"],matches:[
       {d:"2026-06-16",h:"Argentina",a:"Algeria",hs:3,as:0,ft:true},
       {d:"2026-06-17",h:"Austria",a:"Jordan",hs:3,as:1,ft:true},
-      {d:"2026-06-22",h:"Argentina",a:"Austria",ft:false},
-      {d:"2026-06-22",h:"Jordan",a:"Algeria",ft:false},
+      {d:"2026-06-22",h:"Argentina",a:"Austria",hs:2,as:0,ft:true},
+      {d:"2026-06-22",h:"Jordan",a:"Algeria",hs:1,as:2,ft:true},
       {d:"2026-06-27",h:"Algeria",a:"Austria",ft:false},
       {d:"2026-06-27",h:"Jordan",a:"Argentina",ft:false}]},
     K:{teams:["Portugal","DR Congo","Uzbekistan","Colombia"],matches:[
       {d:"2026-06-17",h:"Portugal",a:"DR Congo",hs:1,as:1,ft:true},
       {d:"2026-06-17",h:"Uzbekistan",a:"Colombia",hs:1,as:3,ft:true},
-      {d:"2026-06-23",h:"Portugal",a:"Uzbekistan",ft:false},
-      {d:"2026-06-23",h:"Colombia",a:"DR Congo",ft:false},
+      {d:"2026-06-23",h:"Portugal",a:"Uzbekistan",hs:2,as:0,ft:true},
+      {d:"2026-06-23",h:"Colombia",a:"DR Congo",hs:1,as:1,ft:true},
       {d:"2026-06-27",h:"DR Congo",a:"Uzbekistan",ft:false},
       {d:"2026-06-27",h:"Colombia",a:"Portugal",ft:false}]},
     L:{teams:["England","Croatia","Ghana","Panama"],matches:[
       {d:"2026-06-17",h:"England",a:"Croatia",hs:4,as:2,ft:true},
       {d:"2026-06-17",h:"Ghana",a:"Panama",hs:1,as:0,ft:true},
-      {d:"2026-06-23",h:"England",a:"Ghana",ft:false},
-      {d:"2026-06-23",h:"Panama",a:"Croatia",ft:false},
+      {d:"2026-06-23",h:"England",a:"Ghana",hs:3,as:1,ft:true},
+      {d:"2026-06-23",h:"Panama",a:"Croatia",hs:0,as:2,ft:true},
       {d:"2026-06-27",h:"Panama",a:"England",ft:false},
       {d:"2026-06-27",h:"Croatia",a:"Ghana",ft:false}]}
   }
@@ -374,9 +374,29 @@ function poissonProbs(la, lb){
   }
   const s=pA+pD+pB; return {pA:pA/s,pD:pD/s,pB:pB/s};
 }
-function modalScore(la,lb){
-  const ra=Math.max(0,Math.round(la-0.15)), rb=Math.max(0,Math.round(lb-0.15));
-  return [ra,rb];
+// Display-only predicted scoreline. Instead of a wooden "most likely" score, we
+// SAMPLE a result from each side's expected goals — seeded by the matchup so it's
+// stable across reloads. This gives the natural spread of real football: 0-0 grinds,
+// 1-0 edges, clean sheets, and the occasional thrashing up to 7-0. The margin is
+// capped by the rating gap so even games don't blow out. This is purely cosmetic —
+// win probabilities, projected standings and the bracket use the model above.
+function hashStr(s){let h=2166136261>>>0;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;}
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+function poisSeeded(l,rng){const L=Math.exp(-l);let k=0,p=1;do{k++;p*=rng();}while(p>L);return k-1;}
+function predScore(h,a){
+  const rng=mulberry32(hashStr(h+"|"+a));
+  const gap=rating(h)-rating(a);
+  let la=1.45+gap*0.05, lb=1.45-gap*0.05;
+  if(isHost(h))la+=0.2; if(isHost(a))lb+=0.2;
+  if(gap>=15) la+=(gap-15)*0.06;          // let minnows get thrashed
+  if(gap<=-15) lb+=(-gap-15)*0.06;
+  la=Math.max(0.16,la); lb=Math.max(0.16,lb);
+  let hg=Math.min(7,poisSeeded(la,rng)), ag=Math.min(7,poisSeeded(lb,rng));
+  if(gap>=8 && hg<=ag) hg=Math.min(7, ag+1+(la>2.6?1:0));   // no embarrassing favourite losses
+  if(gap<=-8 && ag<=hg) ag=Math.min(7, hg+1+(lb>2.6?1:0));
+  const cap=2+Math.floor(Math.abs(gap)/5);                  // even games stay close
+  if(Math.abs(hg-ag)>cap){ if(hg>ag) hg=ag+cap; else ag=hg+cap; }
+  return [hg,ag];
 }
 function samplePoisson(l){ // Knuth
   const L=Math.exp(-l); let k=0,p=1;
@@ -586,8 +606,7 @@ function renderGroups(){
       let mid;
       if(m.ft){ mid='<span class="mscbox">'+m.hs+' – '+m.as+'</span>'; }
       else {
-        const [la,lb]=lambdas(m.h,m.a,isHost(m.h),isHost(m.a));
-        const [ph,pa]=modalScore(la,lb);
+        const [ph,pa]=predScore(m.h,m.a);
         mid='<span class="mvs">'+fmtDate(m.d)+'</span>';
         row.dataset.pred='<span class="pred">Pred '+ph+'–'+pa+'</span>';
       }
@@ -664,9 +683,7 @@ function renderOverview(){
   next.sort((a,b)=>a.d.localeCompare(b.d));
   const nd=document.getElementById("ovNext"); nd.innerHTML="";
   next.slice(0,6).forEach(m=>{
-    const [la,lb]=lambdas(m.h,m.a,isHost(m.h),isHost(m.a));
-    const {pA,pD,pB}=poissonProbs(la,lb);
-    const [ph,pa]=modalScore(la,lb);
+    const [ph,pa]=predScore(m.h,m.a);
     const it=el("div","upitem");
     it.innerHTML='<span class="mdate">'+fmtDate(m.d)+'</span>'+
       '<span style="flex:1">'+flag(m.h)+' '+m.h+' <span style="color:var(--mut2)">v</span> '+m.a+' '+flag(m.a)+'</span>'+
